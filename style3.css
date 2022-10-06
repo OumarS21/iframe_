@@ -1,0 +1,62 @@
+.bloc1 {
+
+ border: solid 1px;
+	background-color: red;
+	height: 500px;
+	width:550px;
+	float: left;
+	margin: 10px;
+
+
+}
+
+h2{ border: solid 2px;
+
+
+}
+
+.bloc2{
+
+
+background-color: blue;
+height: 500px;
+width: 550px;
+float: left;
+margin: 10px;
+}
+h2{border: solid 2px;}
+
+.bloc3{
+
+background-color: green;
+height: 500px;
+width: 550px;
+float: left;
+margin: 10px;
+
+
+
+}
+
+.bloc4{
+	 text-align: center;
+	
+height: 500px;
+width: 1850px;
+float :left;
+margin: 10px;}
+
+h3{ border: solid 2px;
+	 text-align: center; 
+}
+
+
+h1{border: solid 2px;
+	text-align: center;}
+img{
+	height: 250px;
+	width:500px;
+
+}
+
+

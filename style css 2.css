@@ -1,0 +1,32 @@
+.bloc1 {
+
+background-color: orange;
+height: 200px;
+width: 200px;
+float:left;
+margin: 10;
+
+}
+
+.bloc2{
+
+
+background-color: red;
+height: 50px;
+width: 30px;
+float: :left;
+margin-left: 20px
+margin: 10px;
+}
+
+
+.bloc3  {
+
+
+	background-color: yellow;
+	height: 50px;
+	width: 30px;
+	clear: :both;
+	margin-left: 20px;
+	margin: 10px;
+}
