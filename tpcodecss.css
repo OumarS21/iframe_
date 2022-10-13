@@ -1,0 +1,68 @@
+body
+{
+
+   background-color: black;
+   text-align: center;
+
+}
+h1
+{
+
+color: red;
+font-family: verdana;
+font-size: 2em;
+
+}
+
+
+
+div
+{
+
+
+border: 5px solid red;
+border-radius: 26px;
+width:50%;
+margin-left: 25%;
+margin-right:35%;
+padding: 6px;
+}
+
+input{
+	border: none;
+}
+
+
+button
+
+{
+
+ width: 300px;
+ border: 2px solid red;
+ border-radius: 26px;
+ background-color: red;
+ padding: 15px 32px;
+ margin-top: 3px;
+
+}
+
+button:hover
+
+{
+
+ width: 300px;
+ border: 2px solid white;
+ border-radius: 26px;
+ background-color: red;
+ padding: 15px 32px;
+ margin-top: 3px;
+ transform: rotate(5deg);
+
+}
+
+
+
+
+
+
+
