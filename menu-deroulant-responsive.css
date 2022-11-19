@@ -2,18 +2,7 @@ body{
    font-family: verdana, Calibri, sans-serif;
    margin: 0px;
    padding: 0px;
-        background-image: url(psg.gif);
-	backgroud-repeat: none-repeat
-	width: 100% 
-        height: 900px
-}
-
-iframe {
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}
+       
 
 nav > ul{
      margin: 0px;
