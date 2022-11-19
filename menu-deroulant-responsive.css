@@ -3,7 +3,9 @@ body{
    margin: 0px;
    padding: 0px;
  background-image: url(psg.gif)
+ background-size: width:100, height:900%
  background-repeat: none-repeat
+	 
        
 
 nav > ul{
