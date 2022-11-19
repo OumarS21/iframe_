@@ -126,12 +126,12 @@ z-index: 100000;
 
 .menu-contact:hover{
 	border-top: 5px solid #58FAF4;
-	background-color: RGBa(220, 220, 220, 0.15);
+	background-color: RGBa(0, 179, 145, 0.16);
 
 }
 .menu-mission:hover{
-	border-top: 5px solid #FF000;
-	background-color: RGBa(241, 68, 79, 0,27);
+	border-top: 5px solid #ff0000;
+	background-color: RGBa(241, 68, 79, 0.27);
 
 }
 
