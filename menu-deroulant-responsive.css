@@ -125,7 +125,7 @@ z-index: 100000;
 
 
 .menu-contact:hover{
-	border-top: 5px solid Red;
+	border-top: 5px solid #58FAF4;
 	background-color: RGBa(220, 220, 220, 0.15);
 
 }
