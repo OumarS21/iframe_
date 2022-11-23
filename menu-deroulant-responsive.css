@@ -1,7 +1,10 @@
 body{   
    font-family: verdana, Calibri, sans-serif;
-   margin: 0px;
+        margin: 0px;
 	padding: 0px;
+	background-image: url(psg.gif);
+	background-repeat: no-repeat: no-repeat;
+	background-size: cover;
 }
  
 
