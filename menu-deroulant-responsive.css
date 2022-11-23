@@ -130,8 +130,8 @@ z-index: 100000;
 
 
 .menu-contact:hover{
-	border-top: 5px solid #58FAF4;
-	background-color: RGBa(0, 179, 145, 0.16);
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
 
 }
 .menu-mission:hover{
