@@ -135,8 +135,8 @@ z-index: 100000;
 
 }
 .menu-mission:hover{
-	border-top: 5px solid #ff0000;
-	background-color: RGBa(241, 68, 79, 0.27);
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15);
 
 }
 
