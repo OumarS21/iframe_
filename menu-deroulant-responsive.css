@@ -4,7 +4,7 @@ body{
 	padding: 0px;
 	background-image: url(psg.gif);
 	background-repeat: no-repeat: no-repeat;
-	background-size: cover;
+	weight: 15px; 
 }
  
 
