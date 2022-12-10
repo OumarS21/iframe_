@@ -30,8 +30,8 @@ img{
 .container div{
     margin: 20px;
     padding: 100px;
-    background-color: antiquewhite;
-    border: 3px solid #082e38;
+    background-color: rgb(19, 88, 216);
+    border: 3px solid #44a0aa;
     border-radius: 10px;
     transition: 0.2s;
 }
