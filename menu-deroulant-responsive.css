@@ -2,22 +2,54 @@ body{
    font-family: verdana, Calibri, sans-serif;
         margin: 0px;
 	padding: 0px;
-	background-image: url(psg.gif);
+	background:url('psg.gif') 0% 0% fixed;
+    height:80%;
+    width:100%;
+   
 	background-repeat: no-repeat: no-repeat;
 	weight: 15px; 
 }
+
  
 main div h1{
 	text-align: center;
-	margin: o auto;
-	margin-top: 30%;
-	margin: 0 auto;
-        z-index: 10;
-	top: 50%;
-    transform: translate(-50%, -50%);
+	display: flex;
+    justify-self: center;
+    align-items: center;
 	
+	opacity: 0.8;
+    width: 50%;
+    height: 40%;
+    border: solid 3px blueviolet;
+    border-radius: 25% 10%;
+    z-index: 5;
+	
+	animation: flicker 1.5s infinite alternate;
+	
+		
+ 
 	
 }
+
+.content {
+	background-color:rgba(255,255,255,.8);
+	border-radius:.25em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:10vmin;
+	position:fixed;
+	text-align:center;
+	top:50%;
+	transform:translate(-50%, -50%);
+	}
+	h1 {
+	font-family:monospace;
+	margin: o auto;
+	margin-top: 70%;
+	margin: 0 auto;
+	}
+	
 	
 	 
        
@@ -30,7 +62,7 @@ nav > ul{
 }
 
 nav li{
-    list-style-type: none;
+    list-style-type: square;
 
 
 }
@@ -60,7 +92,7 @@ nav input[type=checkbox]{
 nav{
 
 	width: 100%;
-	background-color: Black;
+	background-color: black;
 }
 
 nav > ul > li{
@@ -88,7 +120,7 @@ nav a{
 nav > ul > li > a{
 
 	padding: 20px 30px;
-	color: #ffffff;
+	color: white;
 
 }
 
@@ -125,7 +157,7 @@ z-index: 100000;
 .menu-html:hover{
 
 	border-top: 5px solid #e44d26;
-	background color: RGBa(228, 77, 38, 0.15);
+	background color : RGBa(228, 77, 38, 0.15);
 }
 .menu-css:hover{
 	border-top: 5px solid #0070bb;
@@ -147,12 +179,12 @@ z-index: 100000;
 }
 .menu-mission:hover{
 	border-top: 5px solid #0070bb;
-	background-color: RGBa(000, 112, 192, 0.15);
+	background-color:  rgba(14, 6, 251, 0.727);
 
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
-    background-color:  rgba(251, 6, 6, 0.727);
+    background-color: rgba(240, 32, 32, 0.972);
 }
 
 
@@ -168,13 +200,16 @@ nav > ul >li:hover a{
 .menu-css.submenu{
 	background-color: RGB(000 160, 240);
 }
+.menu-mission.submenu{
+	background-color: #4245e9;
+}
 
 
 .menu-js .submenu{
 	background-color: RGB(251, 216, 99);
 }
 .menu-sql .submenu{
-    background-color:#ff0505;
+    background-color: #ff0505;
 }
 
 .submenu li:hover{
@@ -191,7 +226,10 @@ nav > ul >li:hover a{
 	background-color: RGB(200, 165, 75);
 }
 .menu-sql .submenu li:hover{
-    background-color: #ff0505;
+    background-color: rgba(251, 6, 6, 0.727);
+}
+.menu-mission.submenu li:hover{
+    background-color: RGB(14, 6, 251, 0.727);
 }
 
 .menu-mobile{
@@ -217,5 +255,9 @@ nav input[type=checkbox]: checked ~ ul{
 		display: none;
 	}
 }
+
+
+
+       
 
 
