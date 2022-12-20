@@ -2,12 +2,11 @@ body{
    font-family: verdana, Calibri, sans-serif;
         margin: 0px;
 	padding: 0px;
-	background:url('psg.gif') 0% 0% fixed;
-    height:80%;
+	background:url('itachi.gif') 100% 100% fixed;
+    height:100%;
     width:100%;
    
-	background-repeat: no-repeat: no-repeat;
-	weight: 15px; 
+	
 }
 
  
@@ -44,10 +43,11 @@ main div h1{
 	transform:translate(-50%, -50%);
 	}
 	h1 {
-	font-family:cursive;
+	font-family: cursive;
 	margin: 20%;
+	justify-content: 50%;
 	margin-top: 70%;
-	margin: 19%;
+	margin: 20%;
 	color: purple;
     text-shadow:
     0 0 7px #fff,
@@ -61,6 +61,37 @@ main div h1{
     opacity: 100;
     animation: flicker 1.5s infinite alternate;
     color: black;
+	}
+	@keyframes flicker {
+    
+		0%, 18%, 22%, 25%, 53%, 57%, 100% {
+	  
+			text-shadow:
+			0 0 4px #fff,
+			0 0 11px #fff,
+			0 0 19px #fff,
+			0 0 40px #0fa,
+			0 0 80px #0fa,
+			0 0 90px #0fa,
+			0 0 100px #0fa,
+			0 0 150px #0fa;
+		
+		}
+	}
+	20%, 24%, 55% {        
+		text-shadow: none;
+	}
+	main > div{
+		display: flex;
+		justify-self: center;
+		align-items: center;
+		background-color: #222538;
+		opacity: 0.8;
+		width: 50%;
+		height: 40%;
+		border: solid 3px blueviolet;
+		border-radius: 25% 10%;
+		z-index: 5;
 	}
 	
 	
@@ -79,6 +110,20 @@ nav li{
 
 
 }
+.content {
+	background-color:rgba(255,255,255,.8);
+	border-radius:.25em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:10vmin;
+	position:fixed;
+	text-align:center;
+	top:50%;
+	transform:translate(-50%, -50%);
+	}
+
+
 
 nav > ul> li{
 
@@ -192,12 +237,12 @@ z-index: 100000;
 }
 .menu-mission:hover{
 	border-top: 5px solid #0070bb;
-	background-color:  rgba(14, 6, 251, 0.727);
+	background-color:  RGBa(14, 6, 251, 0.727);
 
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
-    background-color: rgba(240, 32, 32, 0.972);
+    background-color: RGBa(240, 32, 32, 0.972);
 }
 
 
@@ -239,7 +284,7 @@ nav > ul >li:hover a{
 	background-color: RGB(200, 165, 75);
 }
 .menu-sql .submenu li:hover{
-    background-color: rgba(251, 6, 6, 0.727);
+    background-color: RGB(251, 6, 6, 0.727);
 }
 .menu-mission.submenu li:hover{
     background-color: RGB(14, 6, 251, 0.727);
@@ -268,9 +313,5 @@ nav input[type=checkbox]: checked ~ ul{
 		display: none;
 	}
 }
-
-
-
-       
 
 
