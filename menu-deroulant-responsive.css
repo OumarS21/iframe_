@@ -48,6 +48,19 @@ main div h1{
 	margin: 20%;
 	margin-top: 70%;
 	margin: 19%;
+	color: purple;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px rgb(255, 0, 238),
+    0 0 151px rgb(255, 0, 144);
+    opacity: 100;
+    animation: flicker 1.5s infinite alternate;
+    color: black;
 	}
 	
 	
