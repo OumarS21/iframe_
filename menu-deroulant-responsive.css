@@ -224,8 +224,8 @@ z-index: 100000;
 
 }
 .menu-js:hover{
-	border-top: 5px solid #f1dc4f;
-	background-color: RGBa(241, 211, 79, 0.15);
+	border-top: 5px solid #ee38b7;
+	background-color: RGBa(238, 56, 183);
 
 }
 
@@ -237,12 +237,12 @@ z-index: 100000;
 }
 .menu-mission:hover{
 	border-top: 5px solid #0070bb;
-	background-color:  RGBa(14, 6, 251, 0.727);
+	background-color: RGBa(14, 6, 251, 0.727);
 
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
-    background-color: RGBa(240, 32, 32, 0.972);
+    background-color:  RGBa(240, 32, 32, 0.972);
 }
 
 
@@ -264,7 +264,7 @@ nav > ul >li:hover a{
 
 
 .menu-js .submenu{
-	background-color: RGB(251, 216, 99);
+	background-color: RGBa(238, 56, 183);
 }
 .menu-sql .submenu{
     background-color: #ff0505;
@@ -281,13 +281,14 @@ nav > ul >li:hover a{
 	background-color: RGB(000, 115, 200);
 }
 .menu-js .submenu li:hover{
-	background-color: RGB(200, 165, 75);
-}
-.menu-sql .submenu li:hover{
-    background-color: RGB(251, 6, 6, 0.727);
+	background-color: RGBa(238, 56, 183);
 }
 .menu-mission.submenu li:hover{
     background-color: RGB(14, 6, 251, 0.727);
+}
+
+.menu-sql .submenu li:hover{
+    background-color: RGB(251, 6, 6, 0.727);
 }
 
 .menu-mobile{
