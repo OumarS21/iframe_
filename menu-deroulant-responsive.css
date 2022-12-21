@@ -2,7 +2,7 @@ body{
    font-family: verdana, Calibri, sans-serif;
         margin: 0px;
 	padding: 0px;
-	background:url('itachi.gif') 100% 100% fixed;
+	background:url('itachi.gif') 0% 100% fixed;
     height:100%;
     width:100%;
    
@@ -150,7 +150,7 @@ nav input[type=checkbox]{
 nav{
 
 	width: 100%;
-	background-color:  rgb(80, 76, 76);;
+	background-color: rgb(80, 76, 76);
 }
 
 nav > ul > li{
@@ -214,8 +214,8 @@ z-index: 100000;
 
 .menu-html:hover{
 
-	border-top: 5px solid #e44d26;
-	background color : RGBa(228, 77, 38, 0.15);
+	border-top: 5px solid #29b7b7;
+	background color : RGBa(9, 217, 217);
 }
 .menu-css:hover{
 	border-top: 5px solid #0070bb;
@@ -231,8 +231,8 @@ z-index: 100000;
 
 
 .menu-contact:hover{
-	border-top: 5px solid #f1dc4f;
-	background-color: RGBa(241, 211, 79, 0.15);
+	border-top: 5px solid #49ed34;
+	background-color: RGBa(57, 179, 41);
 
 }
 .menu-mission:hover{
@@ -252,13 +252,13 @@ nav > ul >li:hover a{
 }
 
 .menu-html .submenu{
-	background-color: RGB(230, 100, 40);
+	background-color: RGB(9, 217, 217);
 }
 
 .menu-css.submenu{
 	background-color: RGB(000 160, 240);
 }
-.menu-mission.submenu{
+.menu-mission .submenu{
 	background-color: #4245e9;
 }
 
@@ -275,7 +275,7 @@ nav > ul >li:hover a{
 	font-weight: bold;
 }
 .menu-html .submenu li:hover{
-	background-color: RGB(210, 77, 60);
+	background-color: RGB(9, 217, 217);
 }
 .menu-css .submenu li:hover{
 	background-color: RGB(000, 115, 200);
