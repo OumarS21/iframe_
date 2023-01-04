@@ -242,7 +242,7 @@ z-index: 100000;
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
-    background-color:  RGBa(240, 32, 32, 0.972);
+    background-color:  red;
 }
 
 
